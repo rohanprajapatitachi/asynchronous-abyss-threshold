@@ -4,13 +4,14 @@ let container = "asdf999898";
 let condition = true;
 let num = null;
 let cloud;
+const arr = undefined;
 
 console.log(typeof apple);
 console.log(typeof container);
 console.log(typeof condition);
 console.log(typeof num);
 console.log(typeof cloud);
-
+console.log(typeof arr);
 
 // BigInt
 const x = BigInt(Number.MAX_SAFE_INTEGER); // 9007199254740991n
@@ -20,3 +21,18 @@ console.log(y);
 // Number
 const a =  (Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2); // true because both are 9007199254740992
 console.log(a);
+
+let score = true;
+console.log("score : ", typeof score);
+console.log("score : ", typeof (score));
+let valueIntoNumber = Number(score);
+console.log(valueIntoNumber);
+
+// "45" => 45
+// "45rohan" => NaN
+// false => 0; true => 1
+
+let boolean = 0;
+let valueBoolean = Boolean(boolean);
+console.log(valueBoolean);         
+// "" => false; "asdf" => true;
