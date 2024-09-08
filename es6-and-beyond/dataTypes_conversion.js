@@ -36,3 +36,12 @@ let boolean = 0;
 let valueBoolean = Boolean(boolean);
 console.log(valueBoolean);         
 // "" => false; "asdf" => true;
+
+console.log(null > 0);
+console.log(null < 0);
+console.log(null == 0);
+console.log(null >= 0);
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+
