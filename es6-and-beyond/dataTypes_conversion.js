@@ -46,8 +46,11 @@ console.log(undefined > 0);
 console.log(undefined < 0);
 
 
-// Primitive
+// Primitive => Stack memory
 // 7types: String, Number, Boolean, Null, undefined, Symbol,  BigInt;
 
-//Reference type (Non-Primitive)
+//Reference type (Non-Primitive) => Heap memory
 // Array, Objects, Functions
+
+
+
