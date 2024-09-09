@@ -19,7 +19,7 @@ const y = (x + 1n === x + 2n); // false because 9007199254740992n and 9007199254
 console.log(y);
 
 // Number
-const a =  (Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2); // true because both are 9007199254740992
+const a = (Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2); // true because both are 9007199254740992
 console.log(a);
 
 let score = true;
@@ -34,7 +34,7 @@ console.log(valueIntoNumber);
 
 let boolean = 0;
 let valueBoolean = Boolean(boolean);
-console.log(valueBoolean);         
+console.log(valueBoolean);
 // "" => false; "asdf" => true;
 
 console.log(null > 0);
@@ -45,3 +45,9 @@ console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
 
+
+// Primitive
+// 7types: String, Number, Boolean, Null, undefined, Symbol,  BigInt;
+
+//Reference type (Non-Primitive)
+// Array, Objects, Functions
