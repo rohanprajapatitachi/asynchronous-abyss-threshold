@@ -53,4 +53,17 @@ console.log(Math.random());
 
 
 
+/*  Date and Time */
+
+let myDate = new Date()
+console.log(myDate); // 2024-09-12T14:51:27.083Z
+console.log(typeof(myDate)); // object
+console.log(myDate.toString()); // Thu Sep 12 2024 20:38:36 GMT+0545 (Nepal Time)
+console.log(myDate.toLocaleString()); // 9/12/2024, 8:38:36 PM
+console.log(myDate.toDateString()); // Thu Sep 12 2024
+
+
+
+
+
 
