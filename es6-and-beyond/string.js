@@ -30,7 +30,16 @@ console.log(str.slice(-28, -25));
 // Expected output: "lazy"
 // Expected output: "fox"
 
-//includes
+// String.prototype.includes()
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+const word = 'fox';
+console.log(
+  `The word "${word}" ${
+    sentence.includes(word) ? 'is' : 'is not'
+  } in the sentence`,
+);
+// Expected output: "The word "fox" is in the sentence"
+
 
 /* String.prototype.split()
     split(separator)

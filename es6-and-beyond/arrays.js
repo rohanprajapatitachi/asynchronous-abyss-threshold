@@ -15,3 +15,13 @@ console.log(animals.slice(2, -1));
 // Expected output: Array ["camel", "duck"]
 console.log(animals.slice());
 // Expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
+
+// Array.prototype.includes()
+const array1 = [1, 2, 3];
+console.log(array1.includes(2));
+// Expected output: true
+const pets = ['cat', 'dog', 'bat'];
+console.log(pets.includes('cat'));
+// Expected output: true
+console.log(pets.includes('elephant'));
+// Expected output: false
