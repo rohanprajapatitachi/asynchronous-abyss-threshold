@@ -16,6 +16,24 @@ console.log(animals.slice(2, -1));
 console.log(animals.slice());
 // Expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
 
+// Array.prototype.splice()
+// splice(start)
+// splice(start, deleteCount)
+// splice(start, deleteCount, item1)
+// splice(start, deleteCount, item1, item2)
+// splice(start, deleteCount, item1, item2, /* …, */ itemN)
+
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+// Inserts at index 1
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "June"]
+months.splice(4, 1, 'May');
+// Replaces 1 element at index 4
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "May"]
+
+
 // Array.prototype.includes()
 const array1 = [1, 2, 3];
 console.log(array1.includes(2));
@@ -25,3 +43,7 @@ console.log(pets.includes('cat'));
 // Expected output: true
 console.log(pets.includes('elephant'));
 // Expected output: false
+
+// push
+myArray.push(18)
+console.log(myArray);
