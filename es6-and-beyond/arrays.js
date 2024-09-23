@@ -47,3 +47,14 @@ console.log(pets.includes('elephant'));
 // push
 myArray.push(18)
 console.log(myArray);
+
+// Array.prototype.pop()
+const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+console.log(plants.pop());
+// Expected output: "tomato"
+console.log(plants);
+// Expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
+plants.pop();
+console.log(plants);
+// Expected output: Array ["broccoli", "cauliflower", "cabbage"]
+
