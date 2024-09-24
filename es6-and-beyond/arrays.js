@@ -76,7 +76,7 @@ console.log(array3);
 const myArray1 = [200, 300];
 const myArray2 = [400, 500];
 const su = [...myArray1, ...myArray2];
-console.log(su);
+console.log("sum :", su);
 
 function sum(x, y, z) {
     return x + y + z;
@@ -88,7 +88,21 @@ function sum(x, y, z) {
   // Expected output: 6
   
 
+// Array.prototype.flat()
+const arr1 = [0, 1, 2, [3, 4]];
+console.log(arr1.flat());
+// expected output: Array [0, 1, 2, 3, 4]
+const arr2 = [0, 1, [2, [3, [4, 5]]]];
+console.log(arr2.flat());
+// expected output: Array [0, 1, 2, Array [3, Array [4, 5]]]
+console.log(arr2.flat(2));
+// expected output: Array [0, 1, 2, 3, Array [4, 5]]
+console.log(arr2.flat(Infinity));
+// expected output: Array [0, 1, 2, 3, 4, 5]
 
+
+console.log(Array.from("ROHAN"));
+// [ 'R', 'O', 'H', 'A', 'N' ]
 
 
 
