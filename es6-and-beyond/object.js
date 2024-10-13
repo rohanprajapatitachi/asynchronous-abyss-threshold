@@ -14,5 +14,4 @@ jsUser.email = "RR@gmail.com";
 console.log(jsUser);
 console.log(typeof(mySym));
 console.log(typeof(jsUser[mySym]));
-
-
+console.log("This is the starting of the new learning curvee that i just invented")
